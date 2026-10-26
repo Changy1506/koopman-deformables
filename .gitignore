@@ -1,0 +1,11 @@
+# the snapshot dataset is not part of the repository (available on request, see README.md)
+dataset/*
+!dataset/README.md
+
+# weights written by the neural training scripts
+neural/checkpoints/
+
+__pycache__/
+*.pyc
+.polyscope.ini
+imgui.ini

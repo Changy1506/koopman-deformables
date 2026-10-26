@@ -1,0 +1,11 @@
+# tested with Python 3.8 and the versions below
+torch>=2.1          # tested 2.4.1 (needs torch.load(weights_only=True))
+numpy               # tested 1.24.4
+scipy               # tested 1.10.1
+h5py                # tested 3.10.0
+pydmd               # tested 2025.8.1 (numerical fitting only)
+polyscope           # tested 2.5.0
+libigl              # tested 2.6.1
+taichi              # tested 1.7.0
+meshio              # tested 5.3.4
+pillow              # tested 10.4.0
